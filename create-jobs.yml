@@ -1,4 +1,4 @@
 -name: create all the project jobs
- hosts: localhost
+ host: localhost
  roles:
      - jenkins
