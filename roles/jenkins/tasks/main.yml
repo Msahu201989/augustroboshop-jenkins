@@ -9,7 +9,7 @@
     - { name: "ci-pipelines"}
 
 - name: Include Multi Branch Task file
-  ansible.builtin.import_task: mbranch.yml
+  ansible.builtin.include_tasks: mbranch.yml
   loop:
      - { name: "cart"}
 
