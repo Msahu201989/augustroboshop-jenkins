@@ -1,7 +1,7 @@
 - name: Build Job file from Template
   ansible.builtin.template:
    src: mbranch.xml
-   dest:/tmp/mbranch.xml
+   dest: /tmp/mbranch.xml
 
 - name: Create a Multi Branch Pipeline
   community.general.jenkins_job:
